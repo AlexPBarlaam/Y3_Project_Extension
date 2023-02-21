@@ -8,8 +8,11 @@
 
 class Station
 {
+public:
 	std::string name;
 	Network network ;
+
+	void getStationData(); 
 
 };
 #endif// !STATION_H

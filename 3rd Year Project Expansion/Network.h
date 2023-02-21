@@ -12,7 +12,9 @@ public:
 	std::string netName;
 	std::vector<Station*> netStations;
 	std::vector<StationLink*> netDownLine;
-	std::vector<StationLink*> netUpLine;	
+	std::vector<StationLink*> netUpLine;
+
+	void getNetworkData();
 };
 
 #endif // !NETWORK_H

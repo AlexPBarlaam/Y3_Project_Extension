@@ -1,0 +1,17 @@
+﻿  3rd Year Project Expansion.cpp
+  Network.cpp
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\Station.h(13,10): error C3646: 'network': unknown override specifier
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\Station.h(13,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Station.cpp
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(9,10): error C3646: 'originStation': unknown override specifier
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(9,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(10,10): error C3646: 'destStation': unknown override specifier
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(10,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\Network.h(13,14): error C2065: 'Station': undeclared identifier
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\Network.h(13,22): error C2059: syntax error: '>'
+  StationLink.cpp
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(9,10): error C3646: 'originStation': unknown override specifier
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(9,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(10,10): error C3646: 'destStation': unknown override specifier
+G:\University Of Lincoln\3rd Year\Project\3rd_Year_Project_Expansion\Y3_Project_Extension\3rd Year Project Expansion\StationLink.h(10,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Generating Code...

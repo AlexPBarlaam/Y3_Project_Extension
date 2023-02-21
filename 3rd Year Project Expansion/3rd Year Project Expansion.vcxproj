@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="3rd Year Project Expansion.cpp" />
     <ClCompile Include="Network.cpp" />
+    <ClCompile Include="Timetable.cpp" />
     <ClCompile Include="Station.cpp" />
     <ClCompile Include="StationLink.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Timetable.h" />
     <ClInclude Include="Network.h" />
     <ClInclude Include="Station.h" />
     <ClInclude Include="StationLink.h" />
