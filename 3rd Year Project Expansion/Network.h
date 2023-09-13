@@ -7,12 +7,29 @@
 #include <string>
 #include <vector>
 
-class Network {
+using namespace std;
+
+class Network 
+{
+private:
+	string name;
+	vector<Station*> stations;
+	vector<StationLink*> downLine;
+	vector<StationLink*> upLine;
+
 public:
-	std::string netName;
-	std::vector<Station*> netStations;
-	std::vector<StationLink*> netDownLine;
-	std::vector<StationLink*> netUpLine;
+	//Constructor
+	Network(string n, vector<Station*> s ,vector<StationLink*> dL, vector<StationLink*> uL);
+	
+	//getters and setters
+	void setName(string n) { name = n; }
+	void setStations(vector<Station*> s) { stations = s; }
+	void setDownLine(vector<StationLink*> dL) { downLine = dL; }
+	void setUpLine(vector<StationLink*> uL) { upLine = uL; }
+	string getName() { return name; }
+	vector<Station*> getStations() { return stations; }
+	vector<StationLink*> getDownLine() { return downLine; }
+	vector<StationLink*> getUpLine() { return upLine; }
 
 	void getNetworkData();
 };

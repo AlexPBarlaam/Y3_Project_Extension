@@ -3,10 +3,23 @@
 
 #include <vector>
 
-class Timetable {
+using namespace std;
+
+class Timetable 
+{
+private:
+	vector<vector<int>> departures;
+	vector<vector<int>> arrivals;
+
 public:
-	std::vector<std::vector<int>> departures;
-	std::vector<std::vector<int>> arrivals;
+	//constructor
+	Timetable(vector<vector<int>> d, vector<vector<int>> a);
+
+	//getters and setters
+	void setDeparture(vector<vector<int>> d) { departures = d; }
+	void setArrivals(vector<vector<int>> a) { arrivals = a; }
+	vector<vector<int>> getDepartures() { return departures; }
+	vector<vector<int>> getArrivals() { return arrivals; }
 
 	void getTimetableData();
 };
